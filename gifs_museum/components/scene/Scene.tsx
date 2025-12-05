@@ -117,7 +117,7 @@ const Scene = ({ gifs }: SceneProps) => {
                 const position: [number, number, number] = [
                   index % 2 === 0 ? -10 : 10,
                   2.5,
-                  -40 + index * 10,
+                  -40 + index * 9,
                 ];
 
                 return (
